@@ -1,0 +1,24 @@
+<ion-header [translucent]="true" mode="ios" class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>
+      el chismografo de kevin
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense" mode="ios" class="ion-no-border">
+    <ion-toolbar>
+      <ion-title size="large">el chismografo news</ion-title>
+    </ion-toolbar>
+    <ion-text class="aling-center">uts salamanca TIS 4A Desarroollo de apps moviles multiplataforma</ion-text> <br>
+    <ion-text>kevin oswaldo velazquez medina</ion-text>
+  </ion-header>
+
+  <app-articles
+    [articles]="articles"
+  >
+  </app-articles>
+
+  <app-explore-container name="Tab 1 page"></app-explore-container>
+</ion-content>
